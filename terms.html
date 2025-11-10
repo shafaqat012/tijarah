@@ -19,41 +19,54 @@
       padding: 1.5rem;
       text-align: center;
     }
+    header h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      letter-spacing: 0.6px;
+    }
+    header p { margin: 0.3rem 0 0; font-size: 0.95rem; opacity: 0.95; }
     main {
       max-width: 900px;
       margin: 2rem auto;
       padding: 2rem;
       background-color: white;
       border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    h1 {
-      text-align: center;
-      color: #009688;
-      margin-bottom: 0.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
     h2 {
       color: #009688;
-      margin-top: 2rem;
-      border-bottom: 2px solid #e0e0e0;
-      padding-bottom: 0.3rem;
+      margin-top: 1.6rem;
     }
     h3 {
       color: #00796b;
-      margin-top: 1.2rem;
+      margin-top: 1rem;
     }
-    ul {
-      margin-left: 1.2rem;
+    p, li {
+      font-size: 1rem;
     }
+    ul { margin-left: 1.2rem; margin-bottom: 1rem; }
+    pre.plain {
+      white-space: pre-wrap;
+      font-family: inherit;
+      font-size: 1rem;
+      background: #f7f7f7;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #eee;
+      overflow: auto;
+    }
+    a { color: #00796b; }
     footer {
       text-align: center;
-      padding: 1.5rem;
+      padding: 1.2rem;
       background-color: #009688;
       color: white;
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
-    a {
-      color: #00796b;
+    footer a { color: white; text-decoration: underline; margin: 0 6px; }
+    @media (max-width: 640px) {
+      main { margin: 1rem; padding: 1rem; }
+      header h1 { font-size: 1.2rem; }
     }
   </style>
 </head>
@@ -69,10 +82,10 @@
 
   <h2>1. General Overview</h2>
   <p>Tijarah is a user-driven marketplace platform where individuals can list and sell products locally. Tijarah does not manufacture, sell, verify, or endorse any products listed on the platform. All transactions occur directly between buyers and sellers, and Tijarah acts solely as an intermediary platform connecting users.</p>
-  <p><strong>Important:</strong> Your use of Tijarah is also governed by our <a href="privacy.html">Privacy Policy</a>, which explains how we collect, use, and protect your data. By using Tijarah, you agree to both these Terms and our Privacy Policy.</p>
+  <p><strong>Important:</strong> Your use of Tijarah is also governed by our Privacy Policy, which explains how we collect, use, and protect your data. By using Tijarah, you agree to both these Terms and our Privacy Policy.</p>
 
-  <!-- 💡 All sections below are directly formatted -->
   <h2>2. User Accounts</h2>
+
   <h3>2.1 Account Registration</h3>
   <ul>
     <li>Users must register an account using Google Sign-In to list or purchase products</li>
@@ -84,7 +97,7 @@
   <h3>2.2 Age Requirement</h3>
   <ul>
     <li>You must be at least 18 years old to create an account and use Tijarah independently</li>
-    <li>Users between 13–17 years old may use the app only with parental or legal guardian consent and supervision</li>
+    <li>Users between 13-17 years old may use the app only with parental or legal guardian consent and supervision</li>
     <li>We do not knowingly allow users under 13 years of age to use Tijarah</li>
   </ul>
 
@@ -96,12 +109,20 @@
     <li>You are liable for any actions taken using your account</li>
   </ul>
 
-  <!-- 🔽 Continue in same structured style -->
   <h2>3. User-Generated Listings</h2>
-  <p>All listings are created and managed by individual users. Tijarah does not inspect, approve, guarantee, or verify the quality, authenticity, legality, or safety of any listed product before it goes live.</p>
+
+  <h3>3.1 Listing Responsibility</h3>
+  <p>All listings are created and managed by individual users</p>
+  <p>Tijarah does not inspect, approve, guarantee, or verify the quality, authenticity, legality, or safety of any listed product before it goes live</p>
+  <p>Users must ensure that all listings are truthful, accurate, and comply with applicable laws</p>
 
   <h3>3.2 Content Moderation</h3>
-  <p>All listings are subject to automated filtering and manual admin review. We reserve the right to remove any listing that violates these Terms without prior notice.</p>
+  <ul>
+    <li>All listings are subject to automated filtering and manual admin review</li>
+    <li>We reserve the right to remove any listing that violates these Terms without prior notice</li>
+    <li>Repeated violations may result in account suspension or permanent ban</li>
+    <li>Users can report suspicious or inappropriate listings through the app</li>
+  </ul>
 
   <h3>3.3 Listing Standards</h3>
   <ul>
@@ -111,347 +132,279 @@
     <li>Update or remove listings promptly when items are sold or no longer available</li>
   </ul>
 
-  <!-- 🧱 Rest of your full T&C content -->
-  <pre style="white-space: pre-wrap; font-family: inherit; font-size: 1rem; margin-top: 1.5rem;">
-4. Transactions and Liability
-4.1 Transaction Responsibility
-Buyers and sellers are solely responsible for completing transactions
-
-Tijarah does not process payments, handle shipping, or facilitate delivery
-
-All transaction terms (price, payment method, delivery) must be agreed upon directly between buyer and seller
-
-We strongly recommend meeting in safe, public locations for in-person transactions
-
-4.2 Platform Liability
-Tijarah is not liable for any loss, damage, fraud, disputes, or issues arising from any transaction or product listed on the platform
-
-Users agree to resolve disputes directly with each other
-
-We do not mediate or arbitrate disputes between buyers and sellers
-
-Tijarah does not guarantee that transactions will be completed successfully
-
-5. Prohibited Items
-Users must not list the following items on Tijarah:
-
-Illegal substances, drugs, narcotics, or controlled substances
-
-Counterfeit, fake, or replica products
-
-Stolen goods or items of questionable origin
-
-Weapons, firearms, ammunition, explosives, or weapon accessories
-
-Adult content, services, or explicit materials
-
-Live animals (except with proper permits where legally allowed)
-
-Tobacco, alcohol, or vaping products
-
-Prescription medicines or medical devices
-
-Fake documents, IDs, currency, or government-issued items
-
-Hazardous materials, chemicals, or pesticides
-
-Items that infringe on intellectual property rights (copyrighted, trademarked)
-
-Pyramid schemes, multi-level marketing (MLM), or get-rich-quick schemes
-
-Event tickets for resale above face value (scalping)
-
-Human organs, body parts, or bodily fluids
-
-Endangered species or protected wildlife products
-
-Hacking tools, spy equipment, or surveillance devices
-
-Any items that violate Jammu & Kashmir, Indian, or international laws
-
-Tijarah reserves the right to remove any listing that violates these prohibitions. Severe or repeated violations will result in permanent account termination.
-
-6. In-App Messaging
-6.1 Messaging Guidelines
-In-app messaging is for transaction-related communication only
-
-Be respectful, professional, and honest in all communications
-
-No spam, harassment, threats, or abusive language
-
-No solicitation of business outside the platform or sharing of external links
-
-6.2 Rate Limiting
-Message rate limits are enforced to prevent spam
-
-Excessive messaging may trigger temporary restrictions
-
-Repeated violations may result in account suspension
-
-6.3 Message Retention
-Chat messages are stored until manually deleted by users
-
-Messages are automatically deleted 7 days after the associated listing expires
-
-Deleting your account does not automatically delete messages from other users' inboxes
-
-7. User Conduct
-Users must adhere to the following conduct standards:
-
-Honesty: Provide truthful and accurate information in all listings and communications
-
-Respect: Treat all users with courtesy and professionalism
-
-No Fraud: Do not engage in scams, phishing, identity theft, or fraudulent activities
-
-No Harassment: Do not bully, threaten, stalk, or harass other users
-
-No Spam: Do not send unsolicited messages or advertisements
-
-Report Issues: Report suspicious activity, prohibited items, or policy violations immediately
-
-Follow Laws: Comply with all local, state, and national laws and regulations
-
-8. Safety Tips
-To ensure safe transactions, Tijarah recommends the following:
-
-Verify Identity: Check seller/buyer profiles, ratings, and reviews before transacting
-
-Meet Publicly: Conduct in-person exchanges in well-lit, public places during daylight hours
-
-Inspect Products: Thoroughly inspect items before making payment
-
-Secure Payments: Use secure payment methods and avoid wire transfers or cryptocurrency for unknown sellers
-
-Protect Privacy: Never share sensitive personal information (bank details, passwords, ID numbers)
-
-Trust Your Instincts: If something feels wrong, walk away from the transaction
-
-Report Suspicious Activity: Contact us immediately at contact.shafaqat.tech@gmail.com
-
-Tijarah is not responsible for any harm, loss, or danger resulting from in-person meetings or transactions.
-
-9. Disclaimer and Warranties
-9.1 Platform "As Is"
-TIJARAH IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.
-
-9.2 No Warranties
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, TIJARAH DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO:
-
-Merchantability or fitness for a particular purpose
-
-Accuracy, reliability, or completeness of listings or user-generated content
-
-Uninterrupted or error-free service
-
-Security of data transmission or storage
-
-Quality or safety of products listed on the platform
-
-9.3 User Risk
-Tijarah does not verify, endorse, or guarantee any products, sellers, or buyers
-
-All transactions and interactions are at your own risk
-
-We do not guarantee that any listing is accurate, legal, or available
-
-10. Limitation of Liability
-TO THE MAXIMUM EXTENT PERMITTED BY INDIAN LAW:
-
-Tijarah, Shafaqat Tech, and its affiliates shall not be liable for any indirect, incidental, consequential, punitive, or special damages arising from your use of the platform
-
-Our total liability shall not exceed ₹1,000 or the amount you paid to use Tijarah (currently ₹0), whichever is less
-
-We are not responsible for:
-
-Product quality, condition, authenticity, or legality
-
-Seller honesty, reliability, or conduct
-
-Transaction completion, payment disputes, or delivery failures
-
-Shipping delays, damages, or lost items
-
-User interactions, meetings, or agreements
-
-Data loss, device damage, or security breaches
-
-Third-party services (Google, Firebase, AdMob)
-
-This limitation applies even if Tijarah has been advised of the possibility of such damages.
-
-11. Indemnification
-You agree to indemnify, defend, and hold harmless Shafaqat Tech, its owners, employees, and affiliates from any claims, damages, losses, liabilities, and expenses (including reasonable legal fees) arising from:
-
-Your use or misuse of Tijarah
-
-Your listings, transactions, or communications
-
-Your violation of these Terms & Conditions
-
-Your violation of any third-party rights (intellectual property, privacy, etc.)
-
-Your violation of any applicable laws or regulations
-
-12. Account Termination & Suspension
-12.1 Termination by Tijarah
-Tijarah reserves the right to suspend, restrict, or permanently terminate your account at any time, with or without notice, for:
-
-Violations of these Terms & Conditions
-
-Posting prohibited items
-
-Fraudulent activity, scams, or deceptive practices
-
-Harassment, abuse, or threatening behavior
-
-Spam or excessive messaging
-
-Multiple user complaints or reports
-
-Suspected illegal activity
-
-Any conduct that harms Tijarah or its users
-
-12.2 Termination by User
-You may delete your account anytime through app settings (Profile > Settings > Delete Account)
-
-Account deletion is permanent and cannot be undone
-
-Your listings will be removed immediately upon account deletion
-
-12.3 Inactive Accounts
-Accounts with no activity for 90 consecutive days will be automatically deleted
-
-You will receive a warning notification before automatic deletion
-
-12.4 Effects of Termination
-Upon termination, your listings, profile, and account access are removed
-
-Chat messages may persist for other users until they delete conversations
-
-We may retain certain data as required by law or for dispute resolution
-
-13. Intellectual Property
-13.1 App Ownership
-Tijarah, its name, logo, design, features, and code are owned by Shafaqat Tech
-
-You may not copy, modify, reverse-engineer, decompile, or create derivative works from the app
-
-All trademarks, service marks, and trade names are proprietary to Shafaqat Tech
-
-13.2 User Content Ownership
-You retain full ownership of all content you create (listings, photos, descriptions, messages)
-
-By posting content on Tijarah, you grant us a non-exclusive, worldwide, royalty-free license to display, store, and distribute your content on the platform
-
-This license terminates when you delete your content or account
-
-13.3 Copyright Infringement
-Respect intellectual property rights of others
-
-Do not post copyrighted images, logos, or content without permission
-
-To report copyright infringement, email contact.shafaqat.tech@gmail.com with:
-
-Description of the copyrighted work
-
-URL or location of infringing content
-
-Your contact information and copyright ownership proof
-
-We will investigate and remove infringing content promptly
-
-14. Fees and Charges
-14.1 Current Pricing
-Tijarah is currently free to use for all users
-
-There are no listing fees, transaction fees, or subscription charges
-
-14.2 Future Fees
-We reserve the right to introduce fees for premium features, promoted listings, or subscription plans in the future
-
-Users will be notified 30 days in advance of any pricing changes
-
-Continued use after fee introduction constitutes acceptance
-
-14.3 Payment Processing
-Any payment processing fees for buyer-seller transactions are the sole responsibility of the transacting parties
-
-Tijarah does not process payments or collect transaction fees at this time
-
-15. Returns and Refunds
-All transactions occur directly between buyers and sellers
-
-Tijarah does not process payments and therefore cannot issue refunds
-
-Buyers and sellers must agree on return and refund policies before completing transactions
-
-We strongly recommend discussing return policies with sellers before purchase
-
-Tijarah is not responsible for mediating return or refund disputes
-
-16. Governing Law and Jurisdiction
-16.1 Applicable Law
-These Terms & Conditions are governed by and construed in accordance with the laws of India, without regard to conflict of law principles.
-
-16.2 Jurisdiction
-Any disputes arising from these Terms or your use of Tijarah shall be subject to the exclusive jurisdiction of the courts in Srinagar, Jammu & Kashmir, India.
-
-16.3 Dispute Resolution
-Before initiating legal action, both parties agree to attempt resolution through good-faith email negotiation for 30 days
-
-If negotiation fails, either party may pursue legal remedies in the designated jurisdiction
-
-Users in India retain all rights under the Consumer Protection Act, 2019
-
-17. Changes to Terms & Conditions
-Tijarah may update these Terms & Conditions at any time to reflect changes in:
-
-App features or functionality
-
-Legal or regulatory requirements
-
-Platform policies or procedures
-
-Notification of Changes:
-
-The "Last Updated" date at the top will be revised
-
-Users will be notified of significant changes via in-app notification or email
-
-You may be required to accept updated Terms to continue using the app
-
-Acceptance: Continued use of Tijarah after changes are posted constitutes acceptance of the updated Terms. If you do not agree to the changes, you must stop using the app and delete your account.
-
-18. Severability
-If any provision of these Terms & Conditions is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, the remaining provisions shall remain in full force and effect. The invalid provision will be modified to the minimum extent necessary to make it valid and enforceable.
-
-19. Assignment
-You may not transfer, assign, or delegate your rights or obligations under these Terms to any third party
-
-Tijarah may assign, transfer, or delegate its rights and obligations under these Terms to any successor, affiliate, or third party without your consent or notice
-
-20. Entire Agreement
-These Terms & Conditions, together with our Privacy Policy, constitute the entire agreement between you and Tijarah regarding your use of the platform. They supersede all prior agreements, understandings, or communications, whether written or oral.
-
-21. Contact Information
-For questions, concerns, or support regarding these Terms & Conditions or the Tijarah platform, please contact us:
-
-Developer: Shafaqat Tech
-Email: contact.shafaqat.tech@gmail.com
-Support: contact.shafaqat.tech@gmail.com
-Location: Srinagar, Jammu & Kashmir, India
-  </pre>
-
+  <h2>4. Transactions and Liability</h2>
+
+  <h3>4.1 Transaction Responsibility</h3>
+  <ul>
+    <li>Buyers and sellers are solely responsible for completing transactions</li>
+    <li>Tijarah does not process payments, handle shipping, or facilitate delivery</li>
+    <li>All transaction terms (price, payment method, delivery) must be agreed upon directly between buyer and seller</li>
+    <li>We strongly recommend meeting in safe, public locations for in-person transactions</li>
+  </ul>
+
+  <h3>4.2 Platform Liability</h3>
+  <ul>
+    <li>Tijarah is not liable for any loss, damage, fraud, disputes, or issues arising from any transaction or product listed on the platform</li>
+    <li>Users agree to resolve disputes directly with each other</li>
+    <li>We do not mediate or arbitrate disputes between buyers and sellers</li>
+    <li>Tijarah does not guarantee that transactions will be completed successfully</li>
+  </ul>
+
+  <h2>5. Prohibited Items</h2>
+  <p>Users must not list the following items on Tijarah:</p>
+  <ul>
+    <li>Illegal substances, drugs, narcotics, or controlled substances</li>
+    <li>Counterfeit, fake, or replica products</li>
+    <li>Stolen goods or items of questionable origin</li>
+    <li>Weapons, firearms, ammunition, explosives, or weapon accessories</li>
+    <li>Adult content, services, or explicit materials</li>
+    <li>Live animals (except with proper permits where legally allowed)</li>
+    <li>Tobacco, alcohol, or vaping products</li>
+    <li>Prescription medicines or medical devices</li>
+    <li>Fake documents, IDs, currency, or government-issued items</li>
+    <li>Hazardous materials, chemicals, or pesticides</li>
+    <li>Items that infringe on intellectual property rights (copyrighted, trademarked)</li>
+    <li>Pyramid schemes, multi-level marketing (MLM), or get-rich-quick schemes</li>
+    <li>Event tickets for resale above face value (scalping)</li>
+    <li>Human organs, body parts, or bodily fluids</li>
+    <li>Endangered species or protected wildlife products</li>
+    <li>Hacking tools, spy equipment, or surveillance devices</li>
+    <li>Any items that violate Jammu & Kashmir, Indian, or international laws</li>
+  </ul>
+  <p>Tijarah reserves the right to remove any listing that violates these prohibitions. Severe or repeated violations will result in permanent account termination.</p>
+
+  <h2>6. In-App Messaging</h2>
+
+  <h3>6.1 Messaging Guidelines</h3>
+  <ul>
+    <li>In-app messaging is for transaction-related communication only</li>
+    <li>Be respectful, professional, and honest in all communications</li>
+    <li>No spam, harassment, threats, or abusive language</li>
+    <li>No solicitation of business outside the platform or sharing of external links</li>
+  </ul>
+
+  <h3>6.2 Rate Limiting</h3>
+  <ul>
+    <li>Message rate limits are enforced to prevent spam</li>
+    <li>Excessive messaging may trigger temporary restrictions</li>
+    <li>Repeated violations may result in account suspension</li>
+  </ul>
+
+  <h3>6.3 Message Retention</h3>
+  <ul>
+    <li>Chat messages are stored until manually deleted by users</li>
+    <li>Messages are automatically deleted 7 days after the associated listing expires</li>
+    <li>Deleting your account does not automatically delete messages from other users' inboxes</li>
+  </ul>
+
+  <h2>7. User Conduct</h2>
+  <p>Users must adhere to the following conduct standards:</p>
+  <ul>
+    <li><strong>Honesty:</strong> Provide truthful and accurate information in all listings and communications</li>
+    <li><strong>Respect:</strong> Treat all users with courtesy and professionalism</li>
+    <li><strong>No Fraud:</strong> Do not engage in scams, phishing, identity theft, or fraudulent activities</li>
+    <li><strong>No Harassment:</strong> Do not bully, threaten, stalk, or harass other users</li>
+    <li><strong>No Spam:</strong> Do not send unsolicited messages or advertisements</li>
+    <li><strong>Report Issues:</strong> Report suspicious activity, prohibited items, or policy violations immediately</li>
+    <li><strong>Follow Laws:</strong> Comply with all local, state, and national laws and regulations</li>
+  </ul>
+
+  <h2>8. Safety Tips</h2>
+  <p>To ensure safe transactions, Tijarah recommends the following:</p>
+  <ul>
+    <li><strong>Verify Identity:</strong> Check seller/buyer profiles, ratings, and reviews before transacting</li>
+    <li><strong>Meet Publicly:</strong> Conduct in-person exchanges in well-lit, public places during daylight hours</li>
+    <li><strong>Inspect Products:</strong> Thoroughly inspect items before making payment</li>
+    <li><strong>Secure Payments:</strong> Use secure payment methods and avoid wire transfers or cryptocurrency for unknown sellers</li>
+    <li><strong>Protect Privacy:</strong> Never share sensitive personal information (bank details, passwords, ID numbers)</li>
+    <li><strong>Trust Your Instincts:</strong> If something feels wrong, walk away from the transaction</li>
+    <li><strong>Report Suspicious Activity:</strong> Contact us immediately at <a href="mailto:contact.shafaqat.tech@gmail.com">contact.shafaqat.tech@gmail.com</a></li>
+  </ul>
+  <p>Tijarah is not responsible for any harm, loss, or danger resulting from in-person meetings or transactions.</p>
+
+  <h2>9. Disclaimer and Warranties</h2>
+
+  <h3>9.1 Platform "As Is"</h3>
+  <p>TIJARAH IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.</p>
+
+  <h3>9.2 No Warranties</h3>
+  <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, TIJARAH DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO:</p>
+  <ul>
+    <li>Merchantability or fitness for a particular purpose</li>
+    <li>Accuracy, reliability, or completeness of listings or user-generated content</li>
+    <li>Uninterrupted or error-free service</li>
+    <li>Security of data transmission or storage</li>
+    <li>Quality or safety of products listed on the platform</li>
+  </ul>
+
+  <h3>9.3 User Risk</h3>
+  <p>Tijarah does not verify, endorse, or guarantee any products, sellers, or buyers</p>
+  <p>All transactions and interactions are at your own risk</p>
+  <p>We do not guarantee that any listing is accurate, legal, or available</p>
+
+  <h2>10. Limitation of Liability</h2>
+  <p>TO THE MAXIMUM EXTENT PERMITTED BY INDIAN LAW:</p>
+  <ul>
+    <li>Tijarah, Shafaqat Tech, and its affiliates shall not be liable for any indirect, incidental, consequential, punitive, or special damages arising from your use of the platform</li>
+    <li>Our total liability shall not exceed ₹1,000 or the amount you paid to use Tijarah (currently ₹0), whichever is less</li>
+    <li>We are not responsible for:
+      <ul>
+        <li>Product quality, condition, authenticity, or legality</li>
+        <li>Seller honesty, reliability, or conduct</li>
+        <li>Transaction completion, payment disputes, or delivery failures</li>
+        <li>Shipping delays, damages, or lost items</li>
+        <li>User interactions, meetings, or agreements</li>
+        <li>Data loss, device damage, or security breaches</li>
+        <li>Third-party services (Google, Firebase, AdMob)</li>
+      </ul>
+    </li>
+  </ul>
+  <p>This limitation applies even if Tijarah has been advised of the possibility of such damages.</p>
+
+  <h2>11. Indemnification</h2>
+  <p>You agree to indemnify, defend, and hold harmless Shafaqat Tech, its owners, employees, and affiliates from any claims, damages, losses, liabilities, and expenses (including reasonable legal fees) arising from:</p>
+  <ul>
+    <li>Your use or misuse of Tijarah</li>
+    <li>Your listings, transactions, or communications</li>
+    <li>Your violation of these Terms & Conditions</li>
+    <li>Your violation of any third-party rights (intellectual property, privacy, etc.)</li>
+    <li>Your violation of any applicable laws or regulations</li>
+  </ul>
+
+  <h2>12. Account Termination & Suspension</h2>
+
+  <h3>12.1 Termination by Tijarah</h3>
+  <p>Tijarah reserves the right to suspend, restrict, or permanently terminate your account at any time, with or without notice, for:</p>
+  <ul>
+    <li>Violations of these Terms & Conditions</li>
+    <li>Posting prohibited items</li>
+    <li>Fraudulent activity, scams, or deceptive practices</li>
+    <li>Harassment, abuse, or threatening behavior</li>
+    <li>Spam or excessive messaging</li>
+    <li>Multiple user complaints or reports</li>
+    <li>Suspected illegal activity</li>
+    <li>Any conduct that harms Tijarah or its users</li>
+  </ul>
+
+  <h3>12.2 Termination by User</h3>
+  <ul>
+    <li>You may delete your account anytime through app settings (Profile &gt; Settings &gt; Delete Account)</li>
+    <li>Account deletion is permanent and cannot be undone</li>
+    <li>Your listings will be removed immediately upon account deletion</li>
+  </ul>
+
+  <h3>12.3 Inactive Accounts</h3>
+  <ul>
+    <li>Accounts with no activity for 90 consecutive days will be automatically deleted</li>
+    <li>You will receive a warning notification before automatic deletion</li>
+  </ul>
+
+  <h3>12.4 Effects of Termination</h3>
+  <ul>
+    <li>Upon termination, your listings, profile, and account access are removed</li>
+    <li>Chat messages may persist for other users until they delete conversations</li>
+    <li>We may retain certain data as required by law or for dispute resolution</li>
+  </ul>
+
+  <h2>13. Intellectual Property</h2>
+
+  <h3>13.1 App Ownership</h3>
+  <p>Tijarah, its name, logo, design, features, and code are owned by Shafaqat Tech</p>
+  <p>You may not copy, modify, reverse-engineer, decompile, or create derivative works from the app</p>
+  <p>All trademarks, service marks, and trade names are proprietary to Shafaqat Tech</p>
+
+  <h3>13.2 User Content Ownership</h3>
+  <p>You retain full ownership of all content you create (listings, photos, descriptions, messages)</p>
+  <p>By posting content on Tijarah, you grant us a non-exclusive, worldwide, royalty-free license to display, store, and distribute your content on the platform</p>
+  <p>This license terminates when you delete your content or account</p>
+
+  <h3>13.3 Copyright Infringement</h3>
+  <p>Respect intellectual property rights of others</p>
+  <p>Do not post copyrighted images, logos, or content without permission</p>
+  <p>To report copyright infringement, email <a href="mailto:contact.shafaqat.tech@gmail.com">contact.shafaqat.tech@gmail.com</a> with:</p>
+  <ul>
+    <li>Description of the copyrighted work</li>
+    <li>URL or location of infringing content</li>
+    <li>Your contact information and copyright ownership proof</li>
+  </ul>
+  <p>We will investigate and remove infringing content promptly</p>
+
+  <h2>14. Fees and Charges</h2>
+
+  <h3>14.1 Current Pricing</h3>
+  <p>Tijarah is currently free to use for all users</p>
+  <p>There are no listing fees, transaction fees, or subscription charges</p>
+
+  <h3>14.2 Future Fees</h3>
+  <p>We reserve the right to introduce fees for premium features, promoted listings, or subscription plans in the future</p>
+  <p>Users will be notified 30 days in advance of any pricing changes</p>
+  <p>Continued use after fee introduction constitutes acceptance</p>
+
+  <h3>14.3 Payment Processing</h3>
+  <p>Any payment processing fees for buyer-seller transactions are the sole responsibility of the transacting parties</p>
+  <p>Tijarah does not process payments or collect transaction fees at this time</p>
+
+  <h2>15. Returns and Refunds</h2>
+  <p>All transactions occur directly between buyers and sellers</p>
+  <p>Tijarah does not process payments and therefore cannot issue refunds</p>
+  <p>Buyers and sellers must agree on return and refund policies before completing transactions</p>
+  <p>We strongly recommend discussing return policies with sellers before purchase</p>
+  <p>Tijarah is not responsible for mediating return or refund disputes</p>
+
+  <h2>16. Governing Law and Jurisdiction</h2>
+
+  <h3>16.1 Applicable Law</h3>
+  <p>These Terms & Conditions are governed by and construed in accordance with the laws of India, without regard to conflict of law principles.</p>
+
+  <h3>16.2 Jurisdiction</h3>
+  <p>Any disputes arising from these Terms or your use of Tijarah shall be subject to the exclusive jurisdiction of the courts in Srinagar, Jammu & Kashmir, India.</p>
+
+  <h3>16.3 Dispute Resolution</h3>
+  <p>Before initiating legal action, both parties agree to attempt resolution through good-faith email negotiation for 30 days</p>
+  <p>If negotiation fails, either party may pursue legal remedies in the designated jurisdiction</p>
+  <p>Users in India retain all rights under the Consumer Protection Act, 2019</p>
+
+  <h2>17. Changes to Terms & Conditions</h2>
+  <p>Tijarah may update these Terms & Conditions at any time to reflect changes in:</p>
+  <ul>
+    <li>App features or functionality</li>
+    <li>Legal or regulatory requirements</li>
+    <li>Platform policies or procedures</li>
+  </ul>
+  <p><strong>Notification of Changes:</strong></p>
+  <ul>
+    <li>The "Last Updated" date at the top will be revised</li>
+    <li>Users will be notified of significant changes via in-app notification or email</li>
+    <li>You may be required to accept updated Terms to continue using the app</li>
+  </ul>
+  <p><strong>Acceptance:</strong> Continued use of Tijarah after changes are posted constitutes acceptance of the updated Terms. If you do not agree to the changes, you must stop using the app and delete your account.</p>
+
+  <h2>18. Severability</h2>
+  <p>If any provision of these Terms & Conditions is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, the remaining provisions shall remain in full force and effect. The invalid provision will be modified to the minimum extent necessary to make it valid and enforceable.</p>
+
+  <h2>19. Assignment</h2>
+  <p>You may not transfer, assign, or delegate your rights or obligations under these Terms to any third party</p>
+  <p>Tijarah may assign, transfer, or delegate its rights and obligations under these Terms to any successor, affiliate, or third party without your consent or notice</p>
+
+  <h2>20. Entire Agreement</h2>
+  <p>These Terms & Conditions, together with our Privacy Policy, constitute the entire agreement between you and Tijarah regarding your use of the platform. They supersede all prior agreements, understandings, or communications, whether written or oral.</p>
+
+  <h2>21. Contact Information</h2>
+  <p>For questions, concerns, or support regarding these Terms & Conditions or the Tijarah platform, please contact us:</p>
+  <p><strong>Developer:</strong> Shafaqat Tech<br>
+  <strong>Email:</strong> <a href="mailto:contact.shafaqat.tech@gmail.com">contact.shafaqat.tech@gmail.com</a><br>
+  <strong>Support:</strong> contact.shafaqat.tech@gmail.com<br>
+  <strong>Location:</strong> Srinagar, Jammu & Kashmir, India</p>
+
+  <p>© 2025 Shafaqat Tech. All Rights Reserved.</p>
 </main>
 
 <footer>
   <p>© 2025 Shafaqat Tech. All Rights Reserved.</p>
   <p>
-    <a href="index.html" style="color:white; text-decoration:underline;">Home</a> |
-    <a href="privacy.html" style="color:white; text-decoration:underline;">Privacy Policy</a> |
-    <a href="terms.html" style="color:white; text-decoration:underline;">Terms & Conditions</a>
+    <a href="index.html">Home</a> |
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="terms.html">Terms & Conditions</a>
   </p>
 </footer>
 
